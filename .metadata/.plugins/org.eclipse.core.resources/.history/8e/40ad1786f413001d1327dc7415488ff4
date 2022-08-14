@@ -1,4 +1,0 @@
-rootProject.name = 'back-monbeaupotager'
-
-include 'front-monbeaupotager'
-project(":front-monbeaupotager").projectDir = file("../front-monbeaupotager")
