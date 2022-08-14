@@ -1,0 +1,12 @@
+package com.potagerfury.monbeaupotager.bll;
+
+import org.springframework.stereotype.Service;
+
+import com.potagerfury.monbeaupotager.bo.Plante;
+import com.potagerfury.monbeaupotager.dal.PlanteDAO;
+
+
+@Service
+public class PlanteManager extends CRUDManager<Plante, PlanteDAO> {
+
+}
